@@ -1,38 +1,155 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9403fc;
+}
+
 .App {
   text-align: center;
+  background-color: #9403fc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.head{
+  font-family: 'Lobster', cursive;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-bg{
+  background-color:#1A1A40;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-radius: 5px;
+  margin-left: 260px;
+  margin-right: 260px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-f{
+  border: 1px solid #8758ff;
+  color: #999999;
+  border-color: #999999;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  background: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 250px;
+}
+
+.add-btn{
+  background-color: #8758ff;
+  border: 1px solid #8758ff;
+  border-color: #999999;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  list-style-type: none;
+  
+}
+
+.form-bg1{
+  background-color:#1A1A40;
+  margin-top: 4rem;
+  padding: 0rem;
+  border-radius: 0px;
+  margin-left: 260px;
+  margin-right: 260px;
+  margin-top: 0px;
+}
+
+.list-todos{
+  background-color: #8758ff;
+  border: 1px solid #8758ff;
+  border-color: #999999;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  list-style-type: none;
+  width: 310px;
+  margin-left: 75px;
+}
+
+.list-todos:hover{
+ background-color: #1A1A40;
+ cursor: pointer;
+ }
+
+ .edit-del-icons{
+  margin-left: 120px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+ }
+
+ .del-icons{
+  margin-left: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+ }
+
+
+ .fa-trash {
+  margin-left: 0.75rem;
+}
+
+.list-todos-input {
+  background-color: #8758ff;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  padding: 0.5rem 1rem;
+  list-style-type: none;
+  width: 200px;
+  margin-left: 0px;
+}
+
+.list-todos-input:hover{
+  background-color: #1A1A40;
+  border: none;
+}
+.list-todos-input:hover,
+.list-todos-input:focus {
+  background-color: #6e3efc;
+}
+
+.list-todos-input::placeholder {
+  color: #ccc;
+}
+
+.save-btn {
+  background-color: #8758ff;
+  border: 1px solid #8758ff;
+  border-color: #999999;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  font-size: 11px;
+  outline: none;
+  
+  font-size: 10px;
+}
+
+.save-btn:hover {
+  background-color: #6e3efc;
 }
